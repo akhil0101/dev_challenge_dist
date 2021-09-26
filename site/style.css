@@ -1,0 +1,60 @@
+/* This css file is included by being imported in index.js */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Mukta, sans-serif;
+  height: 100vh;
+
+  display: grid;
+  justify-content: center;
+ 
+  color: #4f546c;
+  font-size: 0.9rem;
+  background-color: #f9fbff;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px #e1e5ee;
+  background-color: white;
+  text-align: left;
+  width:90vw;
+  height: fit-content;
+  overflow:auto;
+}
+  table  thead {
+    box-shadow: 0 5px 10px #e1e5ee;
+    color: white;
+  }
+
+  table tr {
+    background-color: #ececec;
+    border: 1px solid rgb(182, 182, 182);
+    padding: .35em;
+    width: 100%;
+  }
+  
+
+  table td {
+      padding: 1rem 2rem;
+     
+    }
+  
+  
+  table th {
+      padding: 1rem 2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-size: 0.8rem;
+      font-weight: 900;
+      background-color: #0686fd;
+    
+  }
+  tr:nth-child(even) {
+    background-color:#f4f6fb;
+  }
